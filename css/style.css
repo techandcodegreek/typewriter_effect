@@ -1,0 +1,13 @@
+.container {
+    text-align: center;
+}
+
+.blink {
+    animation: blinker 10s linear infinite;
+  }
+  
+  @keyframes blinker {
+    50% {
+      opacity: 0;
+    }
+  }
